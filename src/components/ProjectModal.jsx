@@ -66,7 +66,7 @@ export default function ProjectModal({ project, onClose, onPrev, onNext }) {
               >
                 {project.image ? (
                   <img
-                    src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, '')}`}
+                    src={project.image}
                     alt={project.titulo}
                     className="w-full h-full object-cover"
                   />
