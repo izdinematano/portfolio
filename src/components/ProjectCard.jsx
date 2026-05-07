@@ -28,7 +28,7 @@ export default function ProjectCard({ project, onClick }) {
         {/* Image (fica quase escondida por baixo do overlay) */}
         {project.image ? (
           <img
-            src={project.image}
+            src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, '')}`}
             alt={project.titulo}
             className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-60 transition-opacity duration-500"
             loading="lazy"
