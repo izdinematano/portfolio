@@ -89,7 +89,7 @@ export default function About() {
         >
           <div className="relative w-full max-w-md aspect-[3/4] overflow-hidden">
             <img
-              src="/profile.png"
+              src="./profile.png"
               alt="Izdine Matano"
               className="w-full h-full object-cover"
             />
